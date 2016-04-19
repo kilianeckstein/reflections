@@ -1,0 +1,43 @@
+Reflection part 1
+
+How did viewing a diff between two versions help you spot the bug?
+
+It marks all changed lines between the two versions.
+When the previous version worked, the mistake can only be located in the changed lines.
+Having the changed lines compared next to each other, the typo is more noticeable.
+
+How could having easy access to the entire history of a file make you more efficient programmer in the long term?
+
+Having all older versions available gives you the chance to always go a step back in programming.
+That offers the possibility to go on with a older version in the case that a bug appears which may not result of a typo.
+Furthermore deleted parts within a document are still available in case you do need them again.
+Additionally you can reproduce all steps made by others in a project including several people.
+
+What do you think are the pros and cons of manually choosing when to create a commit like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros:
+The time when to commit is logically triggered and makes sense concerning the changes made between two commits.
+Commiting automatically may lead to commits in the middle of a change in the project and the steps between two commits may be too big or too small.
+
+Cons:
+If you do many small changes which are not logically connected the steps between two savings may get too big.
+Especially the logical connections and differences between two changes may not be detected by the automatic process of committing
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Connected files, like the .h and the .cpp files in C++, just work when they are connected and on the same level. As a result, changes in one of them effects the other file as well. They need to be committed at the same time to guarantee to keep the connection and the status up-to-date.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Using git log allows you to see all different version that exist in the history of the repository.
+Due to the fact that short descriptions are saved with every version of a file it is possible to find the relevant one fast. 
+To see the changes made in this version you can use git diff to compare it with the previous version. 
+The enlighted lines are the added and erased lines.
+
+How might using version control make you more confident to make changes that could break something?
+
+Having all previous versions that are committed available makes me more confident to make changes, because even if the change brings in many bugs, it is still possible to just go one step back to the last working commit and give it a new try.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git to have a repository with versions of my master's thesis. Thus I do always have backups of my current work and in case of mistakes or bugs I'm able to restore an old version. This works with my programming files as well as with my Latex files. 
