@@ -2,3 +2,7 @@ When would you want to use a remote repository rather than keeping all your work
 
 A remote repository is necessary if you collaborate with others, especially when they are located anywhere else in a big distance. 
 Furthermore, you can use a remote repository as a backup in case your local computer or harddrive breaks.
+
+Why might you want to always pull changes to GitHub manually rather than having Git automatically stay up-to-date with your remote repository?
+
+As said earlier, GitHub might be used as a backup for the local commits and files. In case something went wrong with the local files, you might use the ones in the remote. If they are always up-to-date, the wrong changes might also be pushed to the remote and the function as a backup is gone.

@@ -5,3 +5,24 @@ When you initialize a repository, a hidden .git file is created that allows you 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area allows to choose the documents that are going to be committed. In case you just made changes to one document there's no need to commit all files in the directory again.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can ensure single commits per logical change by just adding the changed files that belong to the logical step to the staging area. Only those files will be committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Such situations may occur when you want to implement a new functionality in a program that is already working reasonable. In order to be able to still use it, but simultaneously working on the new function, a new branch might be the best solution. 
+
+How do the diagrams help you visualize the branch structure?
+
+Branch diagrams show the connections between the different branches. This makes it easy to see where the branches began to differ or maybe where they are merged. Furthermore, the diagrams show which commits are located in which branch(es).
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When two branches are merged, all changes made in the two branches are merged in the sense that they all take effect. The representation of the merging as two ways uniting to one again shows that only one branch is carried on and that it contains all changes of the two parent branches.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+An advantage of merging automatically is that simple changes, like adding a function or solving some syntax errors don't need to be added everytime by hand. This saves a lot of time.
+Doing merges by automatic merging on the other hand includes the problem that the merging of two modified versions of a paragraph may not be possible without conflicts that must also be handled manually. Furthermore, automatic merging might cause errors when the merge is performed wrong. 
