@@ -6,3 +6,11 @@ Furthermore, you can use a remote repository as a backup in case your local comp
 Why might you want to always pull changes to GitHub manually rather than having Git automatically stay up-to-date with your remote repository?
 
 As said earlier, GitHub might be used as a backup for the local commits and files. In case something went wrong with the local files, you might use the ones in the remote. If they are always up-to-date, the wrong changes might also be pushed to the remote and the function as a backup is gone.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are somehow clones within github, so on the website, between different users. 
+Clones on the other hand are copying the repository, for instance locally or from a online repository to your own computer. 
+Branches just split up your version history.
+When working in a big group, you should use fork to get the shared repository so that your changes aren't added to the shared files right away. 
+When working on your own, you can push your changes right away, because they don't effect others directly.
