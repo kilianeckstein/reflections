@@ -14,3 +14,19 @@ Clones on the other hand are copying the repository, for instance locally or fro
 Branches just split up your version history.
 When working in a big group, you should use fork to get the shared repository so that your changes aren't added to the shared files right away. 
 When working on your own, you can push your changes right away, because they don't effect others directly.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+One advantage is that you are able to use the files of the remote repository locally and offline. Furthermore you don't do any changes to the remote while you are working on the files. 
+This again gives you the possibility to use it as a backup tool. 
+
+How would you collaborate without using Git or GitHub? What would be easier and what would be harder?
+
+It would be easier to work on the same files and have the same version at a time. On the other hand, that is also an argument to work with Git!
+If someone makes a mistake, it is not automatically made in all files and other people collaborating may spot the mistake when they get the pull request to merge it with the master branch.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+If you are working on a different function than the main one, you might start a different branch. 
+That way you can keep using the main function while working on an additional functionality. 
+Working directly in master has the advantage that the whole projects stays clear and that every change takes effect when it is committed.
